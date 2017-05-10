@@ -25,7 +25,7 @@
     "json-rpc-error": "^2.0.0",
     "promise-to-callback": "^1.0.0",
     "request": "^2.67.0",
-    "semaphore": "^1.0.3",
+    "semaphore": "^1.0.5",
     "solc": "^0.4.2",
     "tape": "^4.4.0",
     "xhr": "^2.2.0",
