@@ -19,7 +19,7 @@
     "eth-sig-util": "^1.2.1",
     "ethereumjs-block": "^1.2.2",
     "ethereumjs-tx": "^1.2.0",
-    "ethereumjs-util": "^5.1.1",
+    "ethereumjs-util": "^5.1.2",
     "ethereumjs-vm": "^2.0.2",
     "fetch-ponyfill": "^4.0.0",
     "json-rpc-error": "^2.0.0",
