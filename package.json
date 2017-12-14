@@ -30,7 +30,7 @@
     "semaphore": "^1.0.3",
     "solc": "^0.4.2",
     "tape": "^4.4.0",
-    "xhr": "^2.2.0",
+    "xhr": "^2.4.1",
     "xtend": "^4.0.1"
   },
   "devDependencies": {
