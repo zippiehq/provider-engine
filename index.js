@@ -22,7 +22,7 @@ function Web3ProviderEngine(opts) {
   opts = opts || {}
 
   // block polling
-  const directProvider = { sendAsync: self._handleAsync.bind(self) }
+  const directProvider = { sendAsync: self._handleAsync.bind(self), on: self.on.bind(self) }
   const blockTrackerProvider = opts.blockTrackerProvider || directProvider
   self._blockTracker = opts.blockTracker || new EthBlockTracker({
     provider: blockTrackerProvider,
