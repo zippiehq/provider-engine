@@ -32,8 +32,8 @@ function ZeroClientProvider(opts = {}){
   engine.addProvider(sanitizer)
 
   // cache layer
-  const cacheSubprovider = new CacheSubprovider()
-  engine.addProvider(cacheSubprovider)
+  // const cacheSubprovider = new CacheSubprovider()
+  // engine.addProvider(cacheSubprovider)
 
   // filters + subscriptions
   // for websockets, only polyfill filters
